@@ -14,6 +14,7 @@
   line-height: 37px;
   letter-spacing: 0%;
   text-align: center;
+  margin-bottom: 24px;
 }
 .section-description {
   opacity: 0.7;
@@ -192,10 +193,11 @@ main .why-web-dev {
   margin-top: 32px;
 }
 /* Inspiration-section */
-.inspiration{
+.inspiration {
   margin-top: 88px;
+  margin-bottom: 151px;
 }
-.inspiration>p{
+.inspiration > p {
   width: 850px;
   margin: 24px auto 48px auto;
 }
@@ -204,4 +206,58 @@ main .why-web-dev {
   box-sizing: border-box;
   border: 1px solid rgba(13, 19, 33, 0.2);
   border-radius: 16px;
+}
+/*current target */
+.current-target > p {
+  width: 851px;
+  margin: 0 auto;
+  margin-bottom: 48px;
+}
+.current-target .card-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+.current-target .card-container .card {
+  border-radius: 16px;
+  width: 284px;
+  padding: 40px;
+}
+.current-target .card-container .card .card-title {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.current-target .card-container .card .card-description{
+  opacity: 0.7;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.current-target .card-container .card a{
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: underline;
+}
+.current-target .card-container .one {
+  background-color: rgba(255, 76, 30, 0.05);
+}
+.current-target .card-container .two {
+  background-color: rgba(0, 76, 232, 0.05);
+}
+.current-target .card-container .three {
+  background-color: rgba(255, 223, 0, 0.05);
 }
