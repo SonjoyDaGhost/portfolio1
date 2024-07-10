@@ -264,7 +264,7 @@ main .why-web-dev {
 .contact {
   border-radius: 16px;
 
-  background-image: url("../assets/handshake.jpg");
+  background-image: url('../assets/handshake.jpg');
   background-position: center;
   background-size: cover;
   display: flex;
